@@ -1,0 +1,145 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:95%;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.contact-content-left > * {
+    margin: 10px 0px 10px 0px;
+}
+
+.contact-content-left h2 {
+
+    font-size: 17px;
+}
+
+.contact-content-left select {
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.664);
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    max-width: 180px;
+}
+
+.contact-content-left select .default-option {
+    color: rgb(202, 202, 202);
+}
+
+.contact-content-left form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.664);
+}
+
+.contact-content-left form button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(to left, rgb(0, 115, 0), rgb(0, 236, 0));
+    max-width: 150px;
+    font-family: 'Poppins', sans-serif;
+    padding: 8px;
+    margin: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contact-content-left form label {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.contact-content-left form label input{
+    width: 100%;
+    border: 1px solid rgb(193, 193, 193);
+    margin: 0px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-content-left form label.error input{
+    border: 1px solid rgb(226, 65, 65);
+}
+
+.contact-content-left form label textarea{
+    width: 100%;
+    border: 1px solid rgb(193, 193, 193);
+    margin: 0px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    height: 150px;
+    resize: none;
+    margin: auto;
+    outline: none;
+}
+
+.contact-content-left form label.error textarea{
+    border: 1px solid rgb(226, 65, 65);
+}
+
+.contact-content-left form label .phone-input{
+    width: 100%;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-content-left form label .phone-input-container{
+    width: 100%;
+    border: 1px solid rgb(193, 193, 193);
+    padding-right: 10px;
+}
+
+.contact-content-left form label.error .phone-input-container{
+    border: 1px solid rgb(226, 65, 65);
+}
+
+.contact-content-right {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.664);
+    width: 100%;
+    max-width: 370px;
+}
+
+.contact-content-right div * {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 300px) {
+    .contact-content-right div h3 {
+        font-size: 14px;
+    }
+    .contact-content-right div p {
+        font-size: 10px;
+    }
+
+}
+
+

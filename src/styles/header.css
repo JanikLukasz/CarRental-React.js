@@ -1,0 +1,107 @@
+.header {
+    width: 100%;
+}
+
+.top-header a {
+    cursor: default;
+}
+
+.top-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 13px;
+    background-color: rgb(210, 102, 0);
+    color: white;
+    min-height: 40px;
+}
+
+.top-header-content {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-header-content>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.top-header-content>div:first-child {
+    margin-right: 10px;
+}
+
+.top-header-content>div p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 4px 0px 4px;
+}
+
+.top-header-content>div span {
+    padding: 0px 2px 0px 2px;
+}
+
+.top-header-content>div a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px;
+}
+
+.middle-header {
+    background: rgb(6, 0, 123);
+}
+
+.middle-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+
+.middle-header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.middle-header img {
+    width: 70px;
+}
+
+.bottom-header {
+    width: 100%;
+    background: rgb(6, 0, 123);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-header-content {
+    width: 90%;
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    min-height: 35px;
+}
+
+.bottom-header-content a {
+    padding: 0px 8px 0px 8px;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-header-content a.active {
+    color:rgb(210, 102, 0);
+    transition: 0.3s;
+}

@@ -1,0 +1,133 @@
+.cars {
+    width: 98%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.car-body-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.car-body-type > div button {
+    padding: 8px;
+    font-size: 18px;
+    background: rgb(20, 110, 255);
+    border-top: solid 2px rgb(20, 110, 255);
+    border-left: solid 2px rgb(20, 110, 255);
+    border-right: solid 2px rgb(20, 110, 255);
+    color: white;
+    font-weight: 500;
+}
+
+.car-body-type > div button.active {
+    background: white;
+    color: black
+}
+
+.car-body-type > div button:first-child {
+    border-top-left-radius: 15px;
+}
+
+.car-body-type > div button:last-child {
+    border-top-right-radius: 15px;
+}
+
+.cars-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: solid 2px rgb(20, 110, 255);
+    border-radius: 4px;
+    margin-bottom: 50px;
+}
+
+.car-cart {
+    width: 100%;
+    max-width: 320px;
+    margin: 15px;
+    box-shadow: 1px 8px 8px rgba(0, 0, 0, 0.374);
+    padding: 10px;
+}
+
+.car-cart-image {
+    width: 100%;
+}
+
+.car-cart-image img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1.7/1;
+    object-position: bottom;
+}
+
+.car-cart-description {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto auto;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.car-cart-description span {
+    font-size: 20px;
+    color: rgb(20, 110, 255);
+    margin-right: 5px;
+}
+
+.car-cart-description p {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    padding: 5px 0px 5px 0px;
+}
+
+.search-car {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: start;
+    margin: 30px 0px 30px 0px;
+}
+
+.search-car div:first-child {
+    padding: 10px;
+    display: flex;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 20px;
+}
+
+.search-car div:last-child span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.search-car div span {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.search-car div input {
+    font-family: 'Poppins', sans-serif;
+}
+
+.no-car-available {
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 350px) {
+    .car-body-type > div button {
+        font-size: 12px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+  }
+  

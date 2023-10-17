@@ -1,0 +1,51 @@
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Poppins', sans-serif;
+}
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.outlet-container {
+  min-height: 500px;
+  width: 100%;
+}
+
+button {
+  color: inherit;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  border: none;
+  font-family: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: none;
+}
